@@ -10,7 +10,6 @@ RSLRuiz
 class Test(object):
     @classmethod
     def assert_equals(self,actual,expected, text=''):
-        print(actual, expected)
         if actual == expected:
             return print(f'pass')
         else:
