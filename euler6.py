@@ -1,8 +1,8 @@
-"""Project Euler: Problem 5: Sum square difference
+"""Project Euler: Problem 6: Sum square difference
     Find the difference between the sum of the squares
     of the first n natural numbers and the square of the sum.
 
-RSLRuiz
+RSLRuiz March, 2020
 """
 
 class Test(object):
