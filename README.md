@@ -1,4 +1,4 @@
-# ProjectEuler
+# Project Euler
 
 Problem 6: Sum square difference
 
