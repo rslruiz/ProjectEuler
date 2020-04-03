@@ -2,7 +2,7 @@
 
 Problem 7: 10001st prime
 
-```
+```Python
 
 def nthPrime(n):
     # Using Sieve of Erastosthenes
