@@ -1,5 +1,5 @@
 # Project Euler
-Problem Problem 8: Largest product in a series
+Problem 8: Largest product in a series
 
 ```Python
 def largestProductinaSeries(n):
