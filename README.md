@@ -1,4 +1,18 @@
 # Project Euler
+Project 9: Special Pythagorean triplet
+```Python
+def specialPythagoreanTriplet(n):
+    for u in range(2, int(n**0.5)):
+        if not n%(2*u):
+            v = n//(2*u) -u
+            if v > u or v <=0:
+                continue
+            return (2*u*v)*(u*u - v*v)*(u*u + v*v)
+
+print(specialPythagoreanTriplet(1000))
+
+```
+
 Problem 8: Largest product in a series
 
 ```Python
