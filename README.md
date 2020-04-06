@@ -1,5 +1,5 @@
 # Project Euler
-Project 9: Special Pythagorean triplet
+Problem 9: Special Pythagorean triplet
 ```Python
 def specialPythagoreanTriplet(n):
     for u in range(2, int(n**0.5)):
