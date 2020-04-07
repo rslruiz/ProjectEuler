@@ -13,7 +13,6 @@ def primeSummation(n):
 
     return sum([i for i in range(2, n) if isPrime[i]])
 
-
 print(primeSummation(2000000))
 
 ```
