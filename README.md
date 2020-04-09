@@ -19,14 +19,16 @@ print(primeSummation(2000000))
 
 Problem 9: Special Pythagorean triplet
 ```Python
-def specialPythagoreanTriplet(n):
-    for u in range(2, int(n**0.5)):
-        if not n%(2*u):
-            v = n//(2*u) -u
-            if v > u or v <=0:
-                continue
-            return (2*u*v)*(u*u - v*v)*(u*u + v*v)
+# Euler9() Version 2, though this will not catch all triplets with the given sum.
 
+def specialPythagoreanTriplet(n):
+    for u in range(2, n):
+        if not (n*n)%(4*u):
+            v = (n*n)//(4*u) -n +u
+            if v > 0 and v < u:
+                return 2*int((u*v)**0.5)*(u - v)*(u + v)
+
+print(specialPythagoreanTriplet(36))
 print(specialPythagoreanTriplet(1000))
 
 ```
