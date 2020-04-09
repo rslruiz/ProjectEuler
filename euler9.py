@@ -27,7 +27,7 @@ def specialPythagoreanTriplet(n):
     for u in range(2, n):
         if not (n*n)%(4*u):
             v = (n*n)//(4*u) -n +u
-            if v > 0 and v < u:
+            if 0 < v and v < u:
                 return 2*int((u*v)**0.5)*(u - v)*(u + v)
 
 print(specialPythagoreanTriplet(36))
