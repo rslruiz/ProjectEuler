@@ -6,7 +6,7 @@ For example, 32 + 42 = 9 + 16 = 25 = 52.
 
 There exists exactly one Pythagorean triplet for which a + b + c = 1000. Find the product abc such that a + b + c = n.
 a +b +c = n
-a^2 +b^2 = c^2; a = u - v; b = 2uv; c = u + v;
+a^2 +b^2 = c^2; a = u - v; b = 2(uv)**0.5; c = u + v;
 2(uv)**0.5 +2u = n; (uv)**0.5 = n/2 -u; v = 1/u(n/2 -u)**2; v = n*n/(4u) -n +u;
 
 RSLRuiz April 2020
